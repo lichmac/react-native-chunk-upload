@@ -20,12 +20,12 @@ You may want to take a look at the [Schema](#schema) section.
 * **via NPM**
 
     ```bash
-    npm i react-native-chunk-upload
+    npm i --save git+https://github.com/lichmac/react-native-chunk-upload
     ```
 * **via Yarn**
 
     ```bash
-    yarn add react-native-chunk-upload
+    yarn add git+https://github.com/lichmac/react-native-chunk-upload
     ```
 
 ## Basic Usage

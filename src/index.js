@@ -106,13 +106,11 @@ class ChunkUpload {
     }
 
     async unlink(path) {
-        await RNFS.unlink(path)
-            .then(() => {
-                //
-            })
-            .catch((err) => {
-                //
-            });
+        try {
+            await RNFS.unlink(path);
+        } catch (e) {
+            
+        }
     }
 
     getBlobObject(path) {
